@@ -1,6 +1,9 @@
-package com.example.democacheservice;
+package com.example.democacheservice.controllers;
 
 import java.util.List;
+
+import com.example.democacheservice.business.UserService;
+import com.example.democacheservice.domain.User;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

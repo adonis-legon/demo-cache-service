@@ -1,4 +1,4 @@
-package com.example.democacheservice;
+package com.example.democacheservice.domain;
 
 public class User {
     String name;

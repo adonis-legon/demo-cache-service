@@ -3,6 +3,11 @@ package com.example.democacheservice;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
+import com.example.democacheservice.business.UserService;
+import com.example.democacheservice.domain.User;
+import com.example.democacheservice.exceptions.InvalidUserException;
+import com.example.democacheservice.exceptions.MissingUserException;
+
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestInstance;
 import org.junit.jupiter.api.TestInstance.Lifecycle;
@@ -31,7 +36,7 @@ class DemoCacheServiceApplicationTests {
 	@Test
 	void whenFindByIncorrectName_thenThrowException() {
 		final String testUserName = "user3";
-		assertThrows(UserMissingException.class, () -> userService.findByName(testUserName));
+		assertThrows(MissingUserException.class, () -> userService.findByName(testUserName));
 	}
 
 	@Test

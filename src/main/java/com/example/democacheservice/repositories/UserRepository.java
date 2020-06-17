@@ -1,6 +1,8 @@
-package com.example.democacheservice;
+package com.example.democacheservice.repositories;
 
 import java.util.List;
+
+import com.example.democacheservice.domain.User;
 
 public interface UserRepository {
     List<User> getAll();

@@ -1,6 +1,8 @@
-package com.example.democacheservice;
+package com.example.democacheservice.repositories;
 
 import java.util.List;
+
+import com.example.democacheservice.domain.User;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;

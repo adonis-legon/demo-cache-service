@@ -1,4 +1,4 @@
-package com.example.democacheservice;
+package com.example.democacheservice.exceptions;
 
 public class InvalidUserException extends RuntimeException {
 

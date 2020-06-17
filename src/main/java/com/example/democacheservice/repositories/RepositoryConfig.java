@@ -1,4 +1,4 @@
-package com.example.democacheservice;
+package com.example.democacheservice.repositories;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;

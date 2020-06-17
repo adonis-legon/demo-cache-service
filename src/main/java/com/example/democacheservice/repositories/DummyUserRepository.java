@@ -1,7 +1,9 @@
-package com.example.democacheservice;
+package com.example.democacheservice.repositories;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import com.example.democacheservice.domain.User;
 
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Repository;
