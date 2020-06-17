@@ -1,0 +1,7 @@
+version: "3"
+
+services:
+  demo-cache-service:
+    build: .
+    ports:
+      - "9999:9000"
