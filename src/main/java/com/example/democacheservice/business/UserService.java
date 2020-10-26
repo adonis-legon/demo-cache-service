@@ -34,6 +34,7 @@ public class UserService {
 
     @Cacheable
     public List<User> findAll() {
+        System.out.print("Refreshing cache for users...");
         return userRepository.getAll();
     }
 
